@@ -1,0 +1,59 @@
+html {
+    font-size: 1.7rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:black; 
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(backgroundimage.jpg);
+    position: relative;
+    background-position: top;
+    background-color: rgba(255, 255, 255, 0.741);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.page__cont {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:300px) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:401px) {
+    html {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:550px) {
+    html {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 1.7rem;
+    }
+}
